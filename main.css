@@ -1,0 +1,195 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* End of reset */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  background: #FFF;
+  font-family: Arial, Helvetica, sans-serif; }
+
+body {
+  max-width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  margin: 0 auto;
+  font-size: 1em;
+  background: #eaeaea;
+  padding: 0.5em; }
+  body:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+header {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+  header:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  header h1 {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.25em;
+    line-height: 2em;
+    background: #1591fe;
+    color: #FFF;
+    font-weight: bold;
+    padding: 1em 0 0.5em 0;
+    border-bottom: 7px solid #000; }
+    header h1:after {
+      content: " ";
+      display: block;
+      clear: both; }
+  header nav {
+    margin-bottom: 1.5em; }
+    header nav ul {
+      padding: 1.2em;
+      background: #FFF;
+      text-align: left; }
+      header nav ul li {
+        list-style-type: none;
+        display: inline-block; }
+        header nav ul li a {
+          text-decoration: none;
+          color: #565353;
+          padding: 0.75em;
+          margin: 0.5em 0.25em; }
+          header nav ul li a:hover {
+            color: #FFF;
+            background: #000;
+            border-radius: 5px; }
+
+.main {
+  width: 66.1016949153%;
+  float: left;
+  margin-right: 1.6949152542%;
+  background: #FFF; }
+  .main h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: #1591fe;
+    font-weight: bold;
+    padding: 1em; }
+  .main p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    color: #565353;
+    line-height: 1.5em;
+    padding: 0 1em 1em 1em; }
+
+aside {
+  width: 32.2033898305%;
+  float: right;
+  margin-right: 0;
+  padding: 0.5em 1em 2em 1em;
+  background: #FFF; }
+  aside h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+    color: #1591fe;
+    font-weight: bold;
+    padding: 1em 0; }
+  aside a {
+    padding: 1em;
+    background: #1591fe;
+    color: #FFF;
+    text-decoration: none; }
+
+#image_of_the_week {
+  padding-bottom: 1em;
+  border-bottom: 2px solid #eaeaea;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+  #image_of_the_week:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  #image_of_the_week p {
+    margin: 1.5em 0; }
+  #image_of_the_week img {
+    display: block;
+    margin: 0 auto;
+    width: 100%; }
+
+#quote {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+  #quote:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  #quote blockquote {
+    font-size: 1em;
+    line-height: 1.5em;
+    padding: 0.1em 0;
+    color: #565353;
+    margin-bottom: 1em; }
+    #quote blockquote p {
+      border-left: 4px solid #000;
+      padding: 0 0.5em; }
+    #quote blockquote cite a {
+      font-size: 0.75em;
+      display: block;
+      background: none;
+      color: #565353;
+      border-left: 4px solid #000;
+      padding: 0.5em;
+      font-style: italic;
+      margin-bottom: 1em; }
+
+/*# sourceMappingURL=main.css.map */

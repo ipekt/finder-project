@@ -1,0 +1,18 @@
+{
+  "name": "untitled folder",
+  "version": "0.0.0",
+  "authors": [
+    "Ipek Turgul <ipek.turgul@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "susy": "~2.2.5"
+  }
+}
