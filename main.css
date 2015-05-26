@@ -61,7 +61,7 @@ body {
   margin-right: auto;
   height: 100%;
   margin: 0 auto;
-  font-size: 1em;
+  font-size: 0.9em;
   background: #eaeaea;
   padding: 0.5em; }
   body:after {
@@ -88,7 +88,7 @@ header {
     color: #FFF;
     font-weight: bold;
     padding: 1em 0 0.5em 0;
-    border-bottom: 7px solid #000; }
+    border-bottom: 7px solid #003366; }
     header h1:after {
       content: " ";
       display: block;
@@ -109,20 +109,22 @@ header {
           margin: 0.5em 0.25em; }
           header nav ul li a:hover {
             color: #FFF;
-            background: #000;
+            background: #003366;
             border-radius: 5px; }
 
 .main {
-  width: 66.1016949153%;
+  width: 60.4901960784%;
   float: left;
-  margin-right: 1.6949152542%;
-  background: #FFF; }
+  margin-right: 1.9607843137%;
+  background: #FFF;
+  padding: 1em;
+  border-radius: 5px; }
   .main h2 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
+    font-size: 1.4em;
     color: #1591fe;
     font-weight: bold;
-    padding: 1em; }
+    padding: 0.5em 0.5em 1em; }
   .main p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.9em;
@@ -131,22 +133,24 @@ header {
     padding: 0 1em 1em 1em; }
 
 aside {
-  width: 32.2033898305%;
+  width: 37.5490196078%;
   float: right;
   margin-right: 0;
-  padding: 0.5em 1em 2em 1em;
-  background: #FFF; }
+  padding: 0.5em 2em 2em 2em;
+  background: #FFF;
+  border-radius: 5px; }
   aside h3 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.25em;
+    font-size: 1.1em;
     color: #1591fe;
     font-weight: bold;
     padding: 1em 0; }
   aside a {
-    padding: 1em;
+    padding: 0.75em;
     background: #1591fe;
     color: #FFF;
-    text-decoration: none; }
+    text-decoration: none;
+    font-weight: bold; }
 
 #image_of_the_week {
   padding-bottom: 1em;
@@ -180,16 +184,17 @@ aside {
     color: #565353;
     margin-bottom: 1em; }
     #quote blockquote p {
-      border-left: 4px solid #000;
+      border-left: 4px solid #003366;
       padding: 0 0.5em; }
     #quote blockquote cite a {
       font-size: 0.75em;
       display: block;
       background: none;
       color: #565353;
-      border-left: 4px solid #000;
+      border-left: 4px solid #003366;
       padding: 0.5em;
       font-style: italic;
-      margin-bottom: 1em; }
+      margin-bottom: 1em;
+      font-weight: normal; }
 
 /*# sourceMappingURL=main.css.map */

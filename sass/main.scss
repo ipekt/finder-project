@@ -3,8 +3,8 @@
 @import "variables";
 
 $susy: (
-	columns: 12,
-	gutters: .25
+  columns: 12,
+  gutters: .30
 );
 
 @include global-box-sizing(border-box);
@@ -12,151 +12,147 @@ $susy: (
 //  general layout
 
 html {
-	background: $white;
-	font-family: $font-family;
+  background: $white;
+  font-family: $font-family;
 }
 
 body {
-	@include container(65%);
-	height: 100%;
-	margin: 0 auto;
-	font-size: 1em;
-	background: $bg-grey;
-	padding: 0.5em;
+  @include container(65%);
+  height: 100%;
+  margin: 0 auto;
+  font-size: 0.9em;
+  background: $bg-grey;
+  padding: 0.5em;
 }
 
 //  header and navigation
 
 header {
-	@include container(100%);
-	text-align: center; 
+  @include container(100%);
+  text-align: center; 
 
-	h1 {
-		@include container(100%);
-		font-size: 2.25em;
-		line-height: 2em;
-		background: $blue;
-		color: $white;
-		font-weight: bold;
-		padding: 1em 0 0.5em 0;
-		border-bottom: 7px solid $black;
-	}
-	nav {
-		margin-bottom: 1.5em;
+  h1 {
+    @include container(100%);
+    font-size: 2.25em;
+    line-height: 2em;
+    background: $blue;
+    color: $white;
+    font-weight: bold;
+    padding: 1em 0 0.5em 0;
+    border-bottom: 7px solid $black;
+  }
+  nav {
+    margin-bottom: 1.5em;
 
-		ul {
-			padding: 1.2em;
-			background: $white;
-			text-align: left;
+    ul {
+      padding: 1.2em;
+      background: $white;
+      text-align: left;
 
-			li {
-				list-style-type: none;
-				display: inline-block;
+      li {
+        list-style-type: none;
+        display: inline-block;
 
-				a {
-					text-decoration: none;
-					color: $grey;
-					padding: 0.75em;
-					margin: 0.5em 0.25em;
+        a {
+          text-decoration: none;
+          color: $grey;
+          padding: 0.75em;
+          margin: 0.5em 0.25em;
 
-					&:hover {
-						color: $white;
-						background: $black;
-						border-radius: 5px;
-					}
-				}				
-			}
-		}
-	}
+          &:hover {
+            color: $white;
+            background: $black;
+            border-radius: 5px;
+          }
+        }       
+      }
+    }
+  }
 }
-
 
 // article 
 
-
 .main {
-	@include span(8 first);
-	background: $white;
-	
-	h2 {
-		@include h2-style;
-	}
+  @include span(7.35 first);
+  background: $white;
+  padding: 1em;
+  border-radius: 5px;
 
-	p {
-		@include p-style;
-	}
+  h2 {
+    @include h2-style;
+  }
+
+  p {
+    @include p-style;
+  }
 }
-
 
 // aside 
 
-
 aside {
-	@include span(4 last);
-	padding: 0.5em 1em 2em 1em;
-	background: $white;
+  @include span(4.65 last);
+  padding: 0.5em 2em 2em 2em;
+  background: $white;
+  border-radius: 5px;
 
-	h3{
-		@include h3-style;
-	}
+  h3{
+    @include h3-style;
+  }
 
-	a {
-		padding: 1em;
-		background: $blue;
-		color: $white;
-		text-decoration: none;
-	}
+  a {
+    padding: 0.75em;
+    background: $blue;
+    color: $white;
+    text-decoration: none;
+    font-weight: bold;
+  }
 }
-
 
 // aside > articles  
 
-
 #image_of_the_week {
-	padding-bottom: 1em;
-	border-bottom: 2px solid $bg-grey;
-	@include container(100%);
+  padding-bottom: 1em;
+  border-bottom: 2px solid $bg-grey;
+  @include container(100%);
 
-	p {
-		margin: 1.5em 0;
-	}
+  p {
+    margin: 1.5em 0;
 
-	img {
-		display: block;
-		margin: 0 auto;
-		width: 100%;
-	}
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
 }
-
-
 
 #quote {
-	@include container(100%);
-	
-	blockquote {
-		font-size: 1em;
-		line-height: 1.5em;
-		padding: 0.1em 0;
-		color: $grey;
-		margin-bottom: 1em;
+  @include container(100%);
+  
+  blockquote {
+    font-size: 1em;
+    line-height: 1.5em;
+    padding: 0.1em 0;
+    color: $grey;
+    margin-bottom: 1em;
 
-		p {
-			border-left: 4px solid $black;
-			padding: 0 0.5em;
+    p {
+      border-left: 4px solid $black;
+      padding: 0 0.5em;
 
-		}
-	
-		cite a {
-			font-size: 0.75em;
-			display: block;
-			background: none;
-			color: $grey;
-			border-left: 4px solid $black;
-			padding: 0.5em;
-			font-style: italic;
-			margin-bottom: 1em;
-		}
-	}
+    }
+  
+    cite a {
+      font-size: 0.75em;
+      display: block;
+      background: none;
+      color: $grey;
+      border-left: 4px solid $black;
+      padding: 0.5em;
+      font-style: italic;
+      margin-bottom: 1em;
+      font-weight: normal;
+    }
+  }
 }
-
-
